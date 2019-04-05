@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Kagome Miller</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+  <style>
+
+  body {
+      font: 400 15px Dosis, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+  .jumbotron {
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Dosis, sans-serif;
+      background-image: url("bnw3.jpg");
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .portfolioimg {
+      background-image: url("bnw.jpeg");
+      background-repeat: no-repeat;
+  }
+  img.rounded-corners {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      box-shadow: 5px 0px 10px rgba(0,0,0, .8);
+  }
+  a:hover {
+    opacity: 50;
+    filter: alpha(opacity=0);
+  }
+  .thumbnail:hover {
+    opacity: 50;
+    filter: alpha(opacity=0);
+  }
+    .thumbnail {
+      border-radius: 8%;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        height: 230px;
+        width: 300px;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+
+  .navbar {
+      margin-bottom: 0;
+      background-color: #181414;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Dosis, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #181414 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #181414;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+    .social-icons {
+	padding: 0!important;
+	margin: 0!important;
+	list-style-type: none!important;
+    }
+    .social-icons li{
+        float: left!important;
+        margin-right: 2px!important;
+        margin-bottom: 2px!important;
+        padding: 0px!important;
+        display: inline!important;
+        width: auto!important;
+
+    }
+    .social-icons li a {
+        -moz-transition: all 0.3s ease 0s;
+        display: block!important;
+        float: left!important;
+        height: 100%!important;
+        margin: 0!important;
+        padding: 0!important;
+        width: 40px!important;
+        height: 40px!important;
+        text-indent: -9999px!important;
+    }
+
+     }.social-icons li.github a {
+        background: url(icons/github.png) no-repeat 0 0;
+    }
+    .social-icons li.github a:hover {
+        background-color: #71b2d0;
+    }
+    }.social-icons li.linkedin a {
+        background: url(icons/linkedin.png) no-repeat 0 0;
+    }
+    .social-icons li.linkedin a:hover {
+        background-color: #71b2d0;
+    }
+    .social-icons li.twitter a {
+        background: url(icons/twitter.png) no-repeat 0 0;
+    }
+    .social-icons li.twitter a:hover {
+        background-color: #48c4d2;
+    }
+    .flex-center {
+      display: flex;
+      justify-content: center;
+    }
+     #contact {
+        text-align: center;
+         justify-content: center;
+     }
+
+  </style>
+</head>
+
+
+
+
+
+
+
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--<a class="navbar-brand" href="#myPage">Logo</a>-->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Kagome</h1>
+  <p>A Passion For Code - An Eye For Design</p>
+</div>
+
+
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Me</h2><br>
+      <h4>Recent graduate from PDX Code Guild.</h4><br>
+      <p> JavaScript, CSS, Django, Python, HTML, and Social Media Marketing.</p>
+    </div>
+    <div class="col-sm-4">
+        <img src="me.jpg" alt="Kagome" class="rounded-corners">
+    </div>
+  </div>
+</div>
+<div id="portfoliobg" class="text-center">
+    <h2>Portfolio</h2>
+    </div>
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center portfolioimg">
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="https://www.google.com" target="_blank">
+          <img src="shifti3.png" alt="Calendar" class="rounded-corners"></a>
+        <br><p><strong>Calendar</strong></p>
+        <p>Request Days Off From Work</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="https://www.google.com" target="_blank">
+          <img src="chores.jpg" alt="ToDo" class="rounded-corners"></a>
+        <br><p><strong>To Do List</strong></p>
+        <!--<p>Keep Track Of Daily Activities</p>-->
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="https://www.google.com" target="_blank">
+          <img src="blog.jpg" alt="Blog" class="rounded-corners"></a>
+        <br><p><strong>Daily Insight</strong></p>
+        <p>A Personal Blog Space</p>
+      </div>
+    </div>
+  <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="https://www.google.com" target="_blank">
+          <img src="bankthumb.jpg" alt="ATM" class="rounded-corners"></a>
+          <br><p><strong>Balance Your Bank Account</strong></p>
+        <!--<p>Checks and Balances</p>-->
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="https://www.google.com" target="_blank">
+          <img src="portlandthumb.png" alt="Local Time" class="rounded-corners"></a>
+        <br><p><strong>Local Oregon Time</strong></p>
+        <!--<p>Keep Track Of Daily Activities</p>-->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid">
+  <h2>CONTACT</h2>
+  <div class="row">
+      <p><span class="glyphicon glyphicon-phone"></span>702-339-6496</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Portland, OR</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<a href="mailto:kagomemiller@gmail.com?subject=Website Inquiry">kagomemiller@gmail.com</a></p>
+      </div>
+    </div>
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Paradigm 227 &trade;</p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+</body>
+</html>
