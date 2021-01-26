@@ -2,6 +2,7 @@ body {
     font: 400 15px Dosis, sans-serif;
     line-height: 1.8;
     color: #818181;
+    margin: 10px;
 }
 h2 {
     font-size: 24px;
@@ -21,13 +22,13 @@ h4 {
     color: #fff;
     padding: 100px 25px;
     font-family: Dosis, sans-serif;
-    background-image: url("images/bnw3.jpg");
+    background-image: url("../images/bnw3.jpg");
 }
 .container-fluid {
     padding: 60px 50px;
 }
 .portfolioimg {
-    background-image: url("images/bnw.jpeg");
+    background-image: url("../images/bnw.jpeg");
     background-repeat: no-repeat;
 }
 img.rounded-corners {
