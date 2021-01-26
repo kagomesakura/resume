@@ -1,182 +1,17 @@
 <!DOCTYPE html>
-{% load static %}
 <html>
 <head>
 
   <title>Kagome Miller</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="{% static 'theme.css' %}">
+  <link rel="stylesheet" type="text/css" href="static/theme.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
-
-
-
-  <style>
-
- body {
-      font: 400 15px Dosis, sans-serif;
-      line-height: 1.8;
-      color: #818181;
-  }
-  h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #303030;
-      font-weight: 600;
-      margin-bottom: 30px;
-  }
-  h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      color: #303030;
-      font-weight: 400;
-      margin-bottom: 30px;
-  }
-  .jumbotron {
-      color: #fff;
-      padding: 100px 25px;
-      font-family: Dosis, sans-serif;
-      background-image: url("images/bnw3.jpg");
-  }
-  .container-fluid {
-      padding: 60px 50px;
-  }
-  .portfolioimg {
-      background-image: url("images/bnw.jpeg");
-      background-repeat: no-repeat;
-  }
-  img.rounded-corners {
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      box-shadow: 5px 0px 10px rgba(0,0,0, .8);
-  }
-  a:hover {
-    opacity: 50;
-    filter: alpha(opacity=0);
-  }
-  .thumbnail:hover {
-    opacity: 50;
-    filter: alpha(opacity=0);
-  }
-    .thumbnail {
-      border-radius: 8%;
-        opacity: 0.5;
-        filter: alpha(opacity=50);
-        height: 230px;
-        width: 300px;
-  }
-  .item h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      font-weight: 400;
-      font-style: italic;
-      margin: 70px 0;
-  }
-  .item span {
-      font-style: normal;
-  }
-
-  .navbar {
-      margin-bottom: 0;
-      background-color: #181414;
-      z-index: 9999;
-      border: 0;
-      font-size: 12px !important;
-      line-height: 1.42857143 !important;
-      letter-spacing: 4px;
-      border-radius: 0;
-      font-family: Dosis, sans-serif;
-  }
-  .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #181414 !important;
-      background-color: #fff !important;
-  }
-  .navbar-default .navbar-toggle {
-      border-color: transparent;
-      color: #fff !important;
-  }
-  footer .glyphicon {
-      font-size: 20px;
-      margin-bottom: 20px;
-      color: #181414;
-  }
-  .slideanim {visibility:hidden;}
-  .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 1s;
-      -webkit-animation-duration: 1s;
-      visibility: visible;
-  }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
-
-  @media screen and (max-width: 768px)
-   /* For desktop: */ {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-    .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
-    }
-  }
-
-    .flex-center {
-      display: flex;
-      justify-content: center;
-    }
-     #contact {
-        text-align: center;
-         justify-content: center;
-     }
-     #portfolio {
-       text-align: center;
-       justify-content: center;
-     }
-     #socialmedia {
-       text-align: center;
-       justify-content: center;
-     }
-
-  </style>
-
-
-
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -192,25 +27,23 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">KAGOME</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-        <li><a href="#links">LINKS</a></li>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#myPage">KAGOME</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#links">LINKS</a></li>
+        </ul>
       </ul>
     </div>
   </div>
 </nav>
-
 <div class="jumbotron text-center">
   <h1>Kagome</h1>
   <p>A Passion For Code</p>
 </div>
-
-
-
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
-  <div class="row">
+<div id="top" class="container-fluid">
+<div class="row">
     <div class="col-sm-8">
       <h2>About Me</h2><br>
       <p> Currently enrolled in MITx's Computational Thinking using Python:
@@ -226,7 +59,6 @@
 <div id="portfolio" class="text-center">
     <h2>Portfolio</h2>
     </div>
-
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center portfolioimg">
   <div class="row text-center slideanim">
@@ -273,7 +105,6 @@
         <a href="https://www.kagomemiller.com" target="_blank">
         <img src="images/ksm.png" title="kagomemiller"></a>
       </div>
-
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
