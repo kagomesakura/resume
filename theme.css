@@ -22,13 +22,13 @@ h4 {
     color: #fff;
     padding: 100px 25px;
     font-family: Dosis, sans-serif;
-    background-image: url("../images/bnw3.jpg");
+    background-image: url("bnw3.jpg");
 }
 .container-fluid {
     padding: 60px 50px;
 }
 .portfolioimg {
-    background-image: url("../images/bnw.jpeg");
+    background-image: url("bnw.jpeg");
     background-repeat: no-repeat;
 }
 img.rounded-corners {
