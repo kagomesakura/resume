@@ -1,7 +1,7 @@
 body {
     font: 400 15px Dosis, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #fff;
     margin: 10px;
 }
 h2 {
@@ -22,13 +22,13 @@ h4 {
     color: #fff;
     padding: 100px 25px;
     font-family: Dosis, sans-serif;
-    background-image: url("bnw3.jpg");
+    background-image: url("../images/bnw3.jpg");
 }
 .container-fluid {
     padding: 60px 50px;
 }
 .portfolioimg {
-    background-image: url("bnw.jpeg");
+    background-image: url("../images/bnw.jpeg");
     background-repeat: no-repeat;
 }
 img.rounded-corners {
@@ -63,9 +63,14 @@ a:hover {
     font-style: normal;
 }
 
+
+
+
+
+
 .navbar {
     margin-bottom: 0;
-    background-color: #181414;
+    background-color: #fff;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -75,16 +80,25 @@ a:hover {
     font-family: Dosis, sans-serif;
 }
 .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    color: #333333 !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #181414 !important;
-    background-color: #fff !important;
+    color: #fff !important;
+    background-color: #000 !important;
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
 }
+
+
+
+
+
+
+
+
+
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
